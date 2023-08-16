@@ -1,12 +1,20 @@
-#include <unstd.h>
+#include "main.h"
 /**
- * main - This is the _putchar
- *
- * Return: Always 0.
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
-int main()
+
+int main(void)
 {
-	  char str[] = "_putchar\n";
-	    write(1, str, sizeof(str) - 1);
-	      return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
